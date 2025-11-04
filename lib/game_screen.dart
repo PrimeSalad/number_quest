@@ -276,7 +276,7 @@ class _GameScreenState extends State<GameScreen> with TickerProviderStateMixin {
                             Padding(
                               padding: const EdgeInsets.only(right: 28),
                               child: Text(
-                                "Score: $score | Round: $round/$maxRounds",
+                                "Score: $score",
                                 style: GoogleFonts.dynaPuff(
                                   color: Colors.white,
                                   fontSize: 16,
